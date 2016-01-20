@@ -1,0 +1,10 @@
+copy PSWindowsUpdate to %WINDIR%\System32\WindowsPowerShell\v1.0\Modules
+
+now in powershell as administrator type:
+
+Import-Module PSWindowsUpdate
+
+Finaly:
+
+Set-ExecutionPolicy Unrestricted
+Set-ExecutionPolicy RemoteSigned
